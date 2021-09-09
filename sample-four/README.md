@@ -52,3 +52,11 @@ target_link_libraries(sample-four event)
 * Reload CMake Project 
     * 右键CmakeLists
     * double shift -> search "reload cmake"
+    * 命令行执行
+    ```shell
+    cmake CMakeLists.txt -B build -DCMAKE_BUILD_TYPE=Debug
+    cd build
+    make
+    ```
+  
+## CMake示例在CMakeLists.txt中
